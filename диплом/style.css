@@ -1,0 +1,157 @@
+*
+
+body
+{
+	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background: #ecf5e9;
+    line-height: 1.5;
+    font-family: "Rubik";
+}
+
+p{
+	font-size: 18px;
+	color:#C0C0C0 ;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--bg-url);
+  background-repeat: no-repeat;
+  background-size: 100%, cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  outline: solid 1px;
+  
+}
+
+.hero__desc {
+  font-size: 18px;
+  color: #C0C0C0;
+}
+
+
+.abzac{
+ text-indent: 20px;
+  font-size: 14pt;
+  margin: .5em;
+ color: black;
+}
+
+.abzac1{
+  text-align: center;
+  font-size: 14pt;
+  margin: .5em;
+  color: black;
+}
+
+.abzac2{
+  margin: .7em;
+}
+
+.abzac3{
+  font-size: 1pt;
+  margin: .5em;
+  color: black;
+}
+
+img {
+      width: 300px;
+      height: 200px;
+      margin-right: 0.5em;
+  }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.map{
+  margin-top: 9em;
+  margin-left: 3em;
+}
+
+.positionbut{
+  text-align: center;
+}
+
+.size_img{
+  background-size: cover;
+}
+.box-1 {
+  padding-top: 35px;
+  font-size: 60px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.image-bg{
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 420px;
+}
+
+.back{
+  text-align: right;
+  position: static;
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+
+.infa{
+  margin-left: 45%;
+}
+
+.tab{
+  font-size: 14pt;
+  margin: .5em;
+  color: black;
+
+}
+
+form {
+  position: relative;
+  width: 300px;
+ 
+}
+
+.d7 {overflow: auto;}
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.d7 input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #111;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.d7 input:focus {
+  width: 300px;
+}
+.d7 button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+.d7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}

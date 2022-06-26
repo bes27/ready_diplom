@@ -1,0 +1,48 @@
+/*.container{
+    display: flex;
+    background-color: #f9f9f9;
+    height: 5vh;
+    width: 100%;  
+}
+
+.horizontal-sroll{
+    width: 600px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.horizontal-sroll .btn-scroll{
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 0 0 10px #999;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1;
+    cursor: pointer; 
+}
+
+.story-container{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+/*.story-circle{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-items: center;
+    border-radius: 50%;
+}

@@ -1,0 +1,91 @@
+.hero__title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FFFFE0;
+  text-decoration: none;
+}
+
+a.but {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  margin: .4em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+}
+a.but:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.but:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+  .dropdown__hover{
+    font-family: Arial, Helvetica, sans-serif Narrow, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    margin: .4em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid rgb(204,204,204);
+  }
+
+  .dropdown__hover:hover{
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+  .dropdown__menu{
+    position: absolute;
+    margin: .4em;
+    display: none;
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+  .dropdown:hover .dropdown__menu {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  .dropdown__menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 1px #e0e0e0;
+  }
+  .dropdown__menu a:hover{
+    background: f0f0f0;
+    color:#323b40 ;
+  }
